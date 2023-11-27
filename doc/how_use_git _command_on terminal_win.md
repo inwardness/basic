@@ -6,4 +6,5 @@
 	* remote add origin https://github.com/username/project.git
 	* git  branch -M main
 	* git push -u origin main<br>
-* 
+* add new branch git branch </name>
+* add to repo 
