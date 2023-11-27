@@ -35,7 +35,7 @@ This is ***bold and italic***.
 # Links
 
 "create link"
-[md_file_on_D:/](c:\Users\polynom\projects_gb\doc\new_world.md)<br>
+[md_file_on_D:/](/Users/polynom/projects_gb/doc/new_world.md)<br>
 [trimethylfentanyl@gmail.com](trimethylfentanyl@gmail.com)
 
 # Lists
@@ -46,3 +46,44 @@ This is ***bold and italic***.
 
     1. For Unordere lists, use two spaces for each level of idnentation.
     2. For Oredered lists, use three spaces for each level of identation.
+
+# Order List
+Paragraph:
+
+1. Item one
+   1. Sub item one
+   2. Sub item two
+   3. Sub item three
+2. Item two
+<br>
+
+LIST:
+1. ITEM 
+   1. ITEM
+   1. ITEM
+1.  ITEM
+
+# Unordered lists
+- Item 1
+- Item 2
+- Item 3
+  - Sub item 1
+  - Sub item 2
+- Item 4
+
+# Split lists
+- list one - item 1
+- list one - item 2
+  - sub item 1
+  - sub item 2
+- list one - item 3
+
+- list two - item A
+- list two - item B
+
+- list three - item _i_
+- list three - item _ii_
+
+# Images
+To insert images to your markdown file, use the markup ![ALT](/path/image.ext)<br>
+![red_bull](/Users/polynom/projects_gb/resource/red_bull.jpg)
