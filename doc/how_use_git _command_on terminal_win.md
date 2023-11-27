@@ -6,5 +6,6 @@
 	* remote add origin https://github.com/username/project.git
 	* git  branch -M main
 	* git push -u origin main<br>
-* add new branch git branch </name>
-* add to repo 
+		* if add new branch <br>git branch <\name>#delete git branch -D <\name>
+		* apply new branch<br>git switch <\branch name>
+	
