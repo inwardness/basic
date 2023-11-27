@@ -3,5 +3,7 @@
 * on site where is a registered acount make repositories *foo.
 * in Windows system make directory where repositories will be.
 * open directory throuth the terminal and print:<br> dirve:\dir\foo> git init 
-*  if repository is empty, you may clone him from server into your dir. or push to repositories in github-server all files/dirs wich does you make:<br>
-
+	* remote add origin https://github.com/username/project.git
+	* git  branch -M main
+	* git push -u origin main<br>
+* if 
