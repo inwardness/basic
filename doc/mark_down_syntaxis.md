@@ -153,9 +153,7 @@ To emphasize links, add asterisks [1] before and after the brackets and parenthe
  This is the *[Markdown Guide](https://www.markdownguide.org)*.<br>
 
 _____
- To see <br> ![red_bull](/resource/red_bull.jpg)<br> check section <tt> <b>[Image](#images).</tt>
-
-
+ To see <br> ![red_bull](/resource/red_bull.jpg)<br> check section <b>[Image](#images)</b>
 
 <u>_Formatting the Second Part of the Link_</u><br>
 The second part of a reference-style link is formatted with the following  attributes:
@@ -184,7 +182,39 @@ This means the following example formats are all roughly equivalent for the seco
 
 <a href="https://en.wikipedia.org/wiki/The_Milagro_Beanfield_War_(novel)">a novel</a>
 
+# Escaping Characters
+To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\) in front of the character.
 
+\* Without the backslash, this would be a bullet in an unordered list.
 
+_Characters You Can Escape_
 
+*You can use a backslash to escape the following characters.
 
+\  backslash
+
+` 	backtick (see also escaping backticks in code)
+
+\* 	asterisk
+
+_ 	underscore
+
+{ } 	curly braces
+
+[ ] 	brackets
+
+< > 	angle brackets
+
+( ) 	parentheses
+
+\# 	pound sign
+
+\+ 	plus sign
+
+\- 	minus sign (hyphen)
+
+\. 	dot
+
+\! 	exclamation mark
+
+\| 	pipe (see also escaping pipe in tables)
